@@ -12,7 +12,7 @@
 	},
 	"scripts": {
 		"dev": "ts-node-dev ./src/server.ts",
-		"build": "yarn && tsc -p .",
+		"build": "tsc -p .",
 		"start": "yarn dist/server.js"
 	},
 	"dependencies": {
