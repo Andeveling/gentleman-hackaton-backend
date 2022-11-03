@@ -1,5 +1,5 @@
 import { AppError } from './../../utils/appError';
-import { CreateUserParams } from '@/routes/user/user.routes.type';
+import { CreateUserParams } from '../../routes/user/user.routes.type';
 import bcrypt, { hash } from 'bcrypt';
 import { Request, Response, RequestHandler } from 'express';
 import { UserSchema } from '../../database';
