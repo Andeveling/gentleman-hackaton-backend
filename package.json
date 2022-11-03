@@ -11,7 +11,7 @@
 		"npm": ">=8.1.2"
 	},
 	"scripts": {
-		"start": "node dist/server.js",
+		"start": "yarn dist/server.js",
 		"dev": "ts-node-dev ./src/server.ts",
 		"build": "yarn test && tsc -p ."
 	},
