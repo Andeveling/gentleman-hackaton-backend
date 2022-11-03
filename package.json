@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "",
 	"main": "server.ts",
-	"author": "Dante",
+	"author": "Andres Parra",
 	"license": "MIT",
 	"private": true,
 	"engines": {
