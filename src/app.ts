@@ -11,9 +11,6 @@ app.use(urlencoded({ extended: false }));
 app.use(compression());
 app.use(morgan('dev'));
 app.use(cors());
-app.use((_req, res) => {
-  res.send('Hello World!');
-});
 
 routes(app);
 
