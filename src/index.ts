@@ -8,8 +8,8 @@ export async function runServer() {
     console.log('All models were synchronized successfully.');
     await sequelize.authenticate();
     console.log('Connection Database has been established successfully.');
-    app.listen(config.PORT_SERVER, () => {
-      console.log(`server listening on ${config.HOST_SERVER}:${config.PORT_SERVER}`);
+    app.listen(config.PORT, () => {
+      console.log(`server listening on ${config.HOST}:${config.PORT}`);
       console.log('kill server press ctrl + c');
     });
   } catch (error) {

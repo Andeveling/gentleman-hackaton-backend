@@ -3,8 +3,8 @@ import 'dotenv/config';
 const config = {
   // server configs
 
-  PORT_SERVER: process.env.PORT_SERVER || 3001,
-  HOST_SERVER: process.env.HOST_SERVER || 'http://localhost',
+  PORT: process.env.PORT || 3001,
+  HOST: process.env.HOST || 'http://localhost',
 
   // db config
 
