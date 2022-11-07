@@ -13,7 +13,7 @@ export const getPerks = async (req: Request, res: Response) => {
   try {
     const { query } = req;
     BaseParamsSchema.parse(query);
-    const allPerks = await axios.get<AxiosPromise>(`${config.API_BASE_URL}${API_ENDPOINTS.MODALITIES}`, {
+    const allPerks = await axios.get<AxiosPromise>(`${config.API_BASE_URL}${API_ENDPOINTS.PERKS}`, {
       params: query
     });
     const { data } = allPerks;
